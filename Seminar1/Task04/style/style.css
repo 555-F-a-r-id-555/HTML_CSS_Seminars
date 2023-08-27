@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.link1{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
