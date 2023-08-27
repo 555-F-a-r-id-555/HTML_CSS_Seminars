@@ -19,17 +19,27 @@
 
     <h1>Оставить заявку</h1>
     <form action="/">
-      <label for="name">
-        <input type="text" placeholder="Поле ввода вашего имени" />
+      <label for="name" class="field">
+        <input
+          type="text"
+          placeholder="Поле ввода вашего имени"
+          maxlength="100"
+          required
+        />
       </label>
       <br /><br /><br />
-      <label for="email">
-        <input type="email" placeholder="Поле ввода почтового ящика" />
+      <label for="email" class="field">
+        <input
+          type="email"
+          placeholder="Поле ввода почтового ящика"
+          maxlength="100"
+          required
+        />
       </label>
       <br /><br /><br />
-      <button type="submit">Кнопка отправить</button>
+      <button type="submit" class="button">Кнопка отправить</button>
       <br /><br /><br />
-      <button type="reset">Кнопка Стереть форму</button>
+      <button type="reset" class="button">Кнопка Стереть форму</button>
     </form>
   </body>
 </html>
