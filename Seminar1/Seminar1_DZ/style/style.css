@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Draculya;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.link1 {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
+
+
+
+a:hover {
+    color: aquamarine;
+}
+
+a:active {
+    color: crimson;
+}
+
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.link2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.link3 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 400px;
+    align-items: flex-start;
+}
+
+.field {
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+input {
+    border: none;
+    outline: none;
+
+
+}
+
+.button {
+    width: max-content;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    padding: 0 20px;
+}
+
+div {
+    margin: 10px;
+    padding: 5px;
+    font-family: Draculya;
+    font-size: 20px;
+}
+
+div p {
+    font-family: Draculya;
+    font-size: 20px;
+}
+
+.mar {
+    width: 200px;
+    height: 200px;
+}
